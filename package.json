@@ -1,13 +1,15 @@
 {
   "name": "atom-rails-envy-dark",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "2.0.0",
+  "description": "Appcelerator Studio inspired theme for atom",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "appcelerator",
+    "rail-envy"
   ],
-  "repository": "https://github.com/atom/atom-rails-envy-dark",
+  "repository": "https://github.com/ederelk/atom-rails-envy-dark",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
