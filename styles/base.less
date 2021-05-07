@@ -312,6 +312,9 @@ atom-text-editor .search-results .syntax--marker.current-result .region,atom-tex
     .syntax--support.syntax--type {
         color: @red;
     }
+    .syntax--keyword.syntax--operator.syntax--js + .syntax--support.syntax--type{
+        color: @re-library-class-type;
+    }
     .syntax--embedded.syntax--source {
         color: @red;
     }
@@ -328,9 +331,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region,atom-tex
     .leading-whitespace + .syntax--variable.syntax--other.syntax--object.syntax--property {
         color: @re-function-parameters;
     }
-    .syntax--keyword.syntax--operator.syntax--js + .syntax--variable.syntax--other.syntax--object.syntax--property {
-        color: @re-library-class-type;
-    }
+
     .syntax--meta.syntax--delimiter {
         &.syntax--comma{
             color: @light-orange;
