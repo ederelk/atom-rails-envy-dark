@@ -312,14 +312,21 @@ atom-text-editor .search-results .syntax--marker.current-result .region,atom-tex
     .syntax--support.syntax--type {
         color: @red;
     }
+    .syntax--embedded.syntax--source {
+        color: @red;
+    }
     .syntax--punctuation {
         color: @light-orange;
+        &.syntax--section.syntax--embedded{
+            color: @curly-red
+        }
     }
     .syntax--comma {
         color: @light-orange;
     }
+
     .leading-whitespace + .syntax--variable.syntax--other.syntax--object.syntax--property {
-        color: @light-orange;
+        color: @re-function-parameters;
     }
     .syntax--meta.syntax--delimiter {
         &.syntax--comma{
