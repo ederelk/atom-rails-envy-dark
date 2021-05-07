@@ -306,14 +306,16 @@ atom-text-editor .search-results .syntax--marker.current-result .region,atom-tex
 
 .syntax--source.syntax--ts {
     color: @red;
-    .syntax--support.syntax--type.syntax--storage {
-        color: @cyan;
-    }
+
     .syntax--support.syntax--type {
         color: @red;
     }
     .syntax--keyword.syntax--operator.syntax--js + .syntax--support.syntax--type{
         color: @re-library-class-type;
+    }
+
+    .syntax--support.syntax--type.syntax--storage {
+        color: @cyan !important;
     }
     .syntax--embedded.syntax--source {
         color: @red;
